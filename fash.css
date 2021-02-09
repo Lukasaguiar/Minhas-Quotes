@@ -51,6 +51,27 @@ nav li:active{
    position: relative;
    width: 960px;
    margin: 0 auto;
+   
+}
+.sinopse{
+   background:linear-gradient(rgb(100, 58, 197),rgb(234, 93, 247));
+   position: relative;
+   margin: 0 auto;
+   padding: 12px;
+   }
+.imagem-sinopse{
+   position: relative;
+   margin: 0 auto;
+   width: 600px;
+   height: 300px;
+   padding: 6px;
+   box-shadow: 10px 10px 10px;
+   left: 180px;
+   border-radius: 15px;
+}
+.centralizar{
+   width: 940px;
+   margin: 0 auto;
 }
 strong{
    font-weight: bold;
@@ -59,7 +80,7 @@ strong{
 .movee{
    position: absolute;
    top: 80px;
-   left: 100px;;
+   left: 100px;
    font-style: italic;
 }      
 .imagem-menu{
