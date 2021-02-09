@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="fash.css">
+    
+    <title>Musica</title>
+</head>
+<body onload="minha()">
+    <header class="violao-head">
+        <div class="help">
+        <img src="tocar_violao2.jpg" class="musica_cabe" alt="">
+    
+        <nav class="menu">
+            <ul>
+                <li class="espaço">
+                    Home
+                </li>
+                <li class="espaço">
+                    <a href="quote.html">Quotes</a> 
+                </li>
+                <li class="espaço">
+                   <a href="Musica.html"> Musicas</a>
+                </li>
+                <li class="espaço">
+                   Novo
+                </li>
+            </ul></nav></div>
+    </header>
+   <main>
+    <h1>Sinopse</h1>
+    <p class="texto-sinopse">Site focado para apresentar,guardar e servir de lembrete de cover e musicas que quero aprender ou já aprendi </p>
+
+      <h2> Minhas Música e Covers  </h2>
+      <div class="tamanho">
+      <ul class="musica-ajuda">
+        <li class="lista-video">
+            <p class="titulo-musica"> Bruno mars: Just the way you are</p>
+            <p class="video-lado" id="minha"></p>
+        <p onclick="primeira_musica()" class="troca1" id="versao-adaptada"> Minha Versão </p>
+        </li> 
+        <li class="lista-video">
+            <p class="titulo-musica"> Elvis Plesley: Can't help falling in love </p>
+            <p id="minha2"></p>
+            <p onclick="segunda_musica()" class="troca1" id="versao-adaptada2"> Minha Versão </p>
+        </li>
+        <li class="lista-video"> 
+            <p class="titulo-musica"> The Beatles: Oh Darling</p>
+            <p id="minha3"></p>
+            <!--<iframe class="ajuda-play"  src="https://www.youtube.com/embed/KdtZtaIS88s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+            <p onclick="terceira_musica()" class="troca1" id="versao-adaptada3"> Minha Versão </p>
+        </li>
+        </ul>
+    </div>
+   </main> 
+   <img src="lindo.jpg" class="rodape" alt="">
+   <script src="extra.js" ></script>
+</body>
+</html>
